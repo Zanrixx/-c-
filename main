@@ -6,9 +6,9 @@ int main()
 	int a, b;
 	char с;
 	setlocale(LC_ALL, "Russian");
-	std::cout << "Введите первую переменую: ";
+	std::cout << "Введите первую переменную: ";
 	std:: cin >> a;
-	std::cout << "Введите вторую переменую: ";
+	std::cout << "Введите вторую переменную: ";
 	std::cin >> b;
 	std::cout << "Введите действие(+, -, *, :, : ";
 	std::cin >> с;
