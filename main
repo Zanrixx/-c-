@@ -1,0 +1,28 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a, b;
+	char с;
+	setlocale(LC_ALL, "Russian");
+	std::cout << "Введите первую переменую: ";
+	std:: cin >> a;
+	std::cout << "Введите вторую переменую: ";
+	std::cin >> b;
+	std::cout << "Введите действие(+, -, *, :, : ";
+	std::cin >> с;
+	if (с == '+') {
+		std::cout << a+b;
+	}
+	if (с == '-') {
+		std::cout << a - b;
+	}
+	if (с == '*') {
+		std::cout << a * b;
+	}
+	if (с == ':') {
+		std::cout << a / b;
+	}
+}
+
